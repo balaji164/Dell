@@ -43,7 +43,7 @@ public class CartLineTestCase {
 	public void testAddCartLine() {
 		
 		// fetch the user and then cart of that user
-		User user = userDAO.getByEmail("absr@gmail.com");		
+		User user = userDAO.getByEmail("bj@gmail.com");		
 		Cart cart = user.getCart();
 		
 		// fetch the product 
@@ -73,7 +73,7 @@ public class CartLineTestCase {
 	public void testUpdateCartLine() {
 
 		// fetch the user and then cart of that user
-		User user = userDAO.getByEmail("absr@gmail.com");		
+		User user = userDAO.getByEmail("bj@gmail.com");		
 		Cart cart = user.getCart();
 				
 		cartLine = cartLineDAO.getByCartAndProduct(cart.getId(), 2);

@@ -50,7 +50,7 @@ public class CategoryTestCase {
 		category = categoryDAO.get(3);
 		
 		
-		assertEquals("Successfully fetched a single category from the table!","Television",category.getName());
+		assertEquals("Successfully fetched a single category from the table!","inspiron",category.getName());
 		
 		
 	}
@@ -61,7 +61,7 @@ public class CategoryTestCase {
 		
 		category = categoryDAO.get(3);
 		
-		category.setName("TV");
+		category.setName("inspiron");
 		
 		assertEquals("Successfully updated a single category in the table!",true,categoryDAO.update(category));
 		
@@ -104,8 +104,8 @@ public class CategoryTestCase {
 		
 		category = new Category();
 		
-		category.setName("Television");
-		category.setDescription("This is some description for television!");
+		category.setName("inspiron");
+		category.setDescription("This is some description for inspiron!");
 		category.setImageURL("CAT_2.png");
 		
 		assertEquals("Successfully added a category inside the table!",true,categoryDAO.add(category));

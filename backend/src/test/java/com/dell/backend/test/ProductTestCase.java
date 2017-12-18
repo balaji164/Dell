@@ -23,7 +23,7 @@ public class ProductTestCase {
 	@BeforeClass
 	public static void init() {
 		context = new AnnotationConfigApplicationContext();
-		context.scan("net.kzn.shoppingbackend");
+		context.scan("com.dell.backend");
 		context.refresh();
 		productDAO = (ProductDAO)context.getBean("productDAO");
 	}
@@ -34,9 +34,9 @@ public class ProductTestCase {
 		// create operation
 		product = new Product();
 				
-		product.setName("Oppo Selfie S53");
-		product.setBrand("Oppo");
-		product.setDescription("This is some description for oppo mobile phones!");
+		product.setName("longitude");
+		product.setBrand("longitude");
+		product.setDescription("This is some description for longitude!");
 		product.setUnitPrice(25000);
 		product.setActive(true);
 		product.setCategoryId(3);
@@ -48,7 +48,7 @@ public class ProductTestCase {
 		
 		// reading and updating the category
 		product = productDAO.get(2);
-		product.setName("Samsung Galaxy S7");
+		product.setName("adamo");
 		assertEquals("Something went wrong while updating the existing record!",
 				true,productDAO.update(product));		
 				
