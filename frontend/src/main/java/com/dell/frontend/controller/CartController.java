@@ -1,7 +1,5 @@
 package com.dell.frontend.controller;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -15,10 +13,11 @@ import com.dell.frontend.service.CartService;
 @RequestMapping("/cart")
 public class CartController {
 
-	private final static Logger logger = LoggerFactory.getLogger(CartController.class);
+	//private final static Logger logger = LoggerFactory.getLogger(CartController.class);
 	
 	@Autowired
 	private CartService cartService;
+	
 	@RequestMapping("/show")
 	public ModelAndView showCart(@RequestParam(name = "result", required = false) String result) {
 		

@@ -75,7 +75,8 @@ public class HibernateConfig {
 	
 	// transactionManager bean
 	@Bean
-	public HibernateTransactionManager getTransactionManager(SessionFactory sessionFactory) {
+	public HibernateTransactionManager getTransactionManager(SessionFactory sessionFactory)
+	{
 		HibernateTransactionManager transactionManager = new HibernateTransactionManager(sessionFactory);
 		return transactionManager;
 	}

@@ -56,9 +56,7 @@ $(function() {
 		var jsonUrl = '';
 		if (window.categoryId == '') {
 			jsonUrl = window.contextRoot + '/json/data/all/products';
-		}
-		else 
-		{
+		} else {
 			jsonUrl = window.contextRoot + '/json/data/category/'
 					+ window.categoryId + '/products';
 		}
