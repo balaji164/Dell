@@ -31,7 +31,7 @@ public class CartLineTestCase {
 	@BeforeClass
 	public static void init() {
 		context = new AnnotationConfigApplicationContext();
-		context.scan("net.kzn.shoppingbackend");
+		context.scan("com.dell.backend");
 		context.refresh();
 		cartLineDAO = (CartLineDAO)context.getBean("cartLineDAO");
 		productDAO = (ProductDAO)context.getBean("productDAO");

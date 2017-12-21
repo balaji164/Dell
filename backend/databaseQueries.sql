@@ -117,28 +117,28 @@ INSERT INTO category (name, description,image_url,is_active) VALUES ('studo', 'T
 -- adding three users 
 INSERT INTO user_detail 
 (first_name, last_name, role, enabled, password, email, contact_number) 
-VALUES ('Balaji', 'murugasen', 'ADMIN', true, '$2y$10$KS9DS9UtSBVLHFO/h1t.2.tlLL.ZHgC/wcrGv3ErPD9xiPQ0EwNCy', 'bm@gmail.com', '8888888888');
+VALUES ('Balaji', 'murugasen', 'ADMIN', true, '$2b$10$4MLxhPGjPSNp97sj11/xYeqd4H4glcVB/.gCC4Rfzs6oSyFOuvmrK', 'balaji@gmail.com', '8888888888');
 INSERT INTO user_detail 
 (first_name, last_name, role, enabled, password, email, contact_number) 
-VALUES ('mahesh', 'raj', 'SUPPLIER', true, '$2y$10$mM1xt.FSylaaNqNGj1lKxu7ifZqL05tkfZBGbQmDh2N42Y078gUka', 'mr@gmail.com', '9999999999');
+VALUES ('gandhi', 'raj', 'SUPPLIER', true, '$2b$10$IKTcuquQQOEzFYyc.9P2/eSHz.Tu/jCH3K2Ttu4b2CEfhK6PacvZG', 'gandhi@gmail.com', '9999999999');
 INSERT INTO user_detail 
 (first_name, last_name, role, enabled, password, email, contact_number) 
-VALUES ('priya', 'ram', 'SUPPLIER', true, '$2y$10$hix7CazQ2uHvUOD5FU0BCu4SpKyphpQMheAISQbVIWjHYobqVVDvS', 'pr@gmail.com', '7777777777');
+VALUES ('priya', 'ram', 'SUPPLIER', true, '$2b$10$q7msusAieuYPp9hsREWwle/A3UUcGvUz2vKwUlEdeeSDwuRGdyEHu', 'priya@gmail.com', '7777777777');
 INSERT INTO user_detail 
 (first_name, last_name, role, enabled, password, email, contact_number) 
-VALUES ('ram', 'kumar', 'USER', true, '$2y$10$sUMVpw3Xw7v7aZNrDgWkG.jxedvEAKOEAVq.jAyObl9HALv/QD.w2', 'rk@gmail.com', '7777777777');
+VALUES ('ram', 'kumar', 'USER', true, '$2b$10$VoBVsRZwgjKZy0tcihO1Ruzb3ou0v6OmqVXWzg/ZigVGIsnCgHq2S', 'ram@gmail.com', '7777777777');
 
 -- adding five products
 INSERT INTO product (code, name, brand, description, unit_price, quantity, is_active, category_id, supplier_id, purchases, views)
-VALUES ('PRDABC123DEFX', 'Dell Adamo', 'Dell', 'This is one of the best phone available in the market right now!', 18000, 5, true, 1, 2, 0, 0 );
+VALUES ('5', 'Dell Adamo', 'Dell', 'This is one of the best LAPTOP available in the market right now!', 18000, 1, true, 1, 2, 0, 0 );
 INSERT INTO product (code, name, brand, description, unit_price, quantity, is_active, category_id, supplier_id, purchases, views)
-VALUES ('PRDDEF123DEFX', 'Dell DRAC', 'Dell', 'A smart laptop by dell!', 32000, 2, true, 3, 3, 0, 0 );
+VALUES ('1', 'Dell DRAC', 'Dell', 'A smart laptop by dell!', 32000, 1, true, 3, 3, 0, 0 );
 INSERT INTO product (code, name, brand, description, unit_price, quantity, is_active, category_id, supplier_id, purchases, views)
-VALUES ('PRDPQR123WGTX', '	Dell PERC', 'Dell', 'This is one of the best selling laptops available in the market right now!', 57000, 5, true, 2, 2, 0, 0 );
+VALUES ('2', '	Dell PERC', 'Dell', 'This is one of the best selling laptops available in the market right now!', 57000, 1, true, 2, 2, 0, 0 );
 INSERT INTO product (code, name, brand, description, unit_price, quantity, is_active, category_id, supplier_id, purchases, views)
-VALUES ('PRDMNO123PQRX', 'Open Manage', 'Dell', 'This is one of the best laptops available in the market right now!', 54000, 3, true, 1, 2, 0, 0 );
+VALUES ('3', 'Open Manage', 'Dell', 'This is one of the best laptops available in the market right now!', 54000, 1, true, 1, 2, 0, 0 );
 INSERT INTO product (code, name, brand, description, unit_price, quantity, is_active, category_id, supplier_id, purchases, views)
-VALUES ('PRDABCXYZDEFX', 'Dell Latitude E6510', 'Dell', 'This is one of the best laptop series from dell that can be used!', 48000, 5, true, 2, 3, 0, 0 );
+VALUES ('4', 'Dell Latitude E6510', 'Dell', 'This is one of the best laptop series from dell that can be used!', 48000, 1, true, 2, 3, 0, 0 );
 -- adding a supplier correspondece address
 INSERT INTO address( user_id, address_line_one, address_line_two, city, state, country, postal_code, is_billing, is_shipping) 
 VALUES (4, '102 Street, Main Road', 'Near IOB, Gandhi Nagar', 'CHENNAI', 'TAMILNADU', 'India', '600035', true, false );

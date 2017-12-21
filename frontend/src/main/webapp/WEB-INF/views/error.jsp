@@ -28,7 +28,7 @@
 <link href="${css}/myapp.css" rel="stylesheet">
 
 
-<title>Dell Shopping - ${title}</title>
+<title>DELL shopping - ${title}</title>
 
 </head>
 

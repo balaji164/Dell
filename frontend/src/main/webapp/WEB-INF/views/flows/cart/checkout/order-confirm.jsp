@@ -19,7 +19,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>Dell Shopping - Membership</title>
+<title>DELL shopping - Membership</title>
 
 <script>
 
@@ -58,7 +58,7 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
            <div class="navbar-header">
-               <a class="navbar-brand" href="${contextRoot}/home">Dell Shopping</a>
+               <a class="navbar-brand" href="${contextRoot}/home">FOODIE</a>
            </div>
 		</div>
 	</nav>
@@ -155,4 +155,4 @@
 		    	<a href="${contextRoot}/show/all/products" class="btn btn-lg btn-warning">Continue Shopping</a>
 		    </div>
 		</div>
-<%@include file="../../shared/flows-footer.jsp" %>	
+<%@include file="../../flows-shared/footer.jsp" %>	

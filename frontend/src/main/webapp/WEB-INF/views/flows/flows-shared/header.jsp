@@ -19,7 +19,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>Dell Shopping - Membership</title>
+<title>DELL shopping - Membership</title>
 
 <script>
 
@@ -58,12 +58,10 @@
 	        <div class="container">
 	            <!-- Brand and toggle get grouped for better mobile display -->
 	            <div class="navbar-header">
-	                <a class="navbar-brand" href="${flowExecutionUrl}&_eventId=home">Online Shopping</a>
+	                <a class="navbar-brand" href="${flowExecutionUrl}&_eventId=home">FOODIE</a>
 	            </div>
 			</div>
 		</nav>
 		
-		
-		<!-- Page Content -->
-
-		<div class="content">
+		</div>
+		</body>

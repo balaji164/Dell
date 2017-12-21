@@ -1,8 +1,7 @@
-<%@include file="../shared/flows-header.jsp" %>
+<%@include file="../flows-shared/header.jsp" %>
 <%@taglib prefix="sf" uri="http://www.springframework.org/tags/form" %>			
 	<div class="container">
-		
-		
+				
 		<div class="row">
 			
 			<div class="col-md-6 col-md-offset-3">
@@ -116,4 +115,4 @@
 		
 	</div>
 
-<%@include file="../shared/flows-footer.jsp" %>			
+<%@include file="../flows-shared/footer.jsp" %>			

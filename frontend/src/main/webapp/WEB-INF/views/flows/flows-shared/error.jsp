@@ -28,7 +28,7 @@
 <link href="${css}/myapp.css" rel="stylesheet">
 
 
-<title>Dell Shopping - FlowException</title>
+<title>DELL shopping - FlowException</title>
 
 </head>
 

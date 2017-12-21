@@ -1,10 +1,3 @@
-<head>
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-</head> 
-
 <!-- DataTable Bootstrap Script -->
 <script src="${js}/angular.js"></script>
 
@@ -35,19 +28,19 @@
 						<div class="carousel-inner">
 							
 							<div class="item active">
-								<img class="slide-image" src="${images}/1.jpg"
+								<img class="slide-image" src="${images}/banner1.jpg"
 									alt="">
 							</div>
 							<div class="item">
-								<img class="slide-image" src="${images}/alienware2.jpg"
+								<img class="slide-image" src="${images}/banner2.jpg"
 									alt="">
 							</div>
 							<div class="item">
-								<img class="slide-image" src="${images}/DELL.jpg"
+								<img class="slide-image" src="${images}/banner3.jpg"
 									alt="">
 							</div>
 							<div class="item">
-								<img class="slide-image" src="${images}/inspiron.jpg"
+								<img class="slide-image" src="${images}/banner4.jpg"
 									alt="">
 							</div>
 						</div>
@@ -129,4 +122,3 @@
 
 </div>
 <!-- /.container -->
- 

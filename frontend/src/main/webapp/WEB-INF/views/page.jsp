@@ -7,45 +7,41 @@
 <spring:url var="js" value="/resources/js" />
 <spring:url var="images" value="/resources/images" />
 
+
+
 <c:set var="contextRoot" value="${pageContext.request.contextPath}" />
+
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Dell Website Using Spring MVC and Hibernate">
-<meta name="author" content="user">
+<meta name="description" content="DELL Website Using Spring MVC and Hibernate">
+<meta name="author" content="Balaji">
 <meta name="_csrf" content="${_csrf.token}">
 <meta name="_csrf_header" content="${_csrf.headerName}">
 
-<title>Dell Shopping - ${title}</title>
+<title>DELL shopping - ${title}</title>
 
 <script>
 	window.menu = '${title}';
-	
 	window.contextRoot = '${contextRoot}'
 	
 </script>
 
-<!-- Bootstrap Core CSS -->
-<link href="${css}/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap core CSS -->
+<link href="${css}/bootstrap.css" rel="stylesheet">
 
-<!-- Bootstrap Readable Theme -->
+<!-- Bootstrap readable theme -->
 <link href="${css}/bootstrap-readable-theme.css" rel="stylesheet">
-
 
 <!-- Bootstrap DataTables -->
 <link href="${css}/dataTables.bootstrap.css" rel="stylesheet">
 
-
-<!-- Custom CSS -->
+<!-- Add custom CSS here -->
 <link href="${css}/myapp.css" rel="stylesheet">
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -55,10 +51,11 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+
 </head>
 
 <body>
-	
+
 	<div class="se-pre-con"></div>
 	<div class="wrapper">
 
@@ -96,8 +93,8 @@
 			</c:if>								
 
 			<!-- Load only when user clicks manage product -->
-			<c:if test="${userClickManageProducts == true}">
-				<%@include file="manageProducts.jsp"%>
+			<c:if test="${userClickManageProduct == true}">
+				<%@include file="manageProduct.jsp"%>
 			</c:if>	
 
 			<!-- Load only when user clicks manage product -->
@@ -107,8 +104,7 @@
 
 		</div>
 
-
-		<!-- Footer comes here -->
+		<!-- footer -->
 		<%@include file="./shared/footer.jsp"%>
 
 		<!-- jQuery -->
@@ -132,7 +128,6 @@
 		<script src="${js}/myapp.js"></script>
 
 	</div>
-
 </body>
 
 </html>

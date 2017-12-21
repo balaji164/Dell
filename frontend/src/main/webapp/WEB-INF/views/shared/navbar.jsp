@@ -12,7 +12,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="${contextRoot}/home">Dell Shopping</a>
+                <a class="navbar-brand" href="${contextRoot}/home">DELL shopping</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -38,7 +38,7 @@
 			    <ul class="nav navbar-nav navbar-right">
 			    	<security:authorize access="isAnonymous()">
 	                    <li id="signup">
-	                        <a href="${contextRoot}/register">Sign Up</a>
+	                        <a href="${contextRoot}/membership">Sign Up</a>
 	                    </li>
 						<li id="login">
 	                        <a href="${contextRoot}/login">Login</a>

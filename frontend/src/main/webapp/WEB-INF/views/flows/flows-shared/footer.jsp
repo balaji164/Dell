@@ -1,5 +1,3 @@
-	</div>
-
 
 		<!-- Footer comes here -->
 		<%@include file="../../shared/footer.jsp"%>
@@ -25,7 +23,6 @@
 		<!-- Self coded javascript -->
 		<script src="${js}/myapp.js"></script>
 
-	</div>
 
 </body>
 
